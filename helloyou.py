@@ -3,7 +3,7 @@ import datetime
 
 x = datetime.datetime.now()
 
-print("Hello you!, ik ben Mauro Hendriks")
+print("Hello you!, ik ben Mauro")
 n = input("wie ben jij?")
 print("Hello,", n+"!")
 print(x.strftime("%c"))
