@@ -1,23 +1,22 @@
-weekdag= ("donderdag")
+weekdag= ("woensdag")
 
 if weekdag == ("maandag"):
     print("pak je spullen je moet naar school")
 
-if weekdag == ("dinsdag"):
+elif weekdag == ("dinsdag"):
     print("pak je spullen je moet naar school")
 
-if weekdag == ("woensdag"):
+elif weekdag == ("woensdag"):
     print("pak je spullen je moet naar school")
 
-if weekdag == ("donderdag"):
+elif weekdag == ("donderdag"):
     print("pak je spullen je moet naar school")
 
-if weekdag == ("vrijdag"):
+elif weekdag == ("vrijdag"):
     print("pak je spullen je moet naar school")
 
-if weekdag == ("zaterdag"):
+elif weekdag == ("zaterdag"):
     print("het is weekend je kan uit slapen")
 
-if weekdag == ("zondag"):
+else:
     print("het is weekend je kan uit slapen")
-   
