@@ -14,7 +14,7 @@ def countdown(tijd):
         time.sleep(1)
         tijd -= 1
       
-    url = "https://www.youtube.com/watch?v=kpfisl0VFm4"
+    url = "https://www.youtube.com/watch?v=kpfisl0VFm4?t=1"
   
     video = pafy.new(url)
   
