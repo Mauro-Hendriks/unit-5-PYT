@@ -1,6 +1,0 @@
-print("Hello")
-n = input("wie ben jij?")
-print("Hello,", n+"! Wat een leuke naam!")
-v = input("Hoe oud ben je?")
-b= input("Waar woon je?")
-print("Dus "+n+" je bent "+v+" jaar oud en je woon in "+b)
