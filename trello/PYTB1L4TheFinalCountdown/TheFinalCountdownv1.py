@@ -7,4 +7,5 @@ while True	:
  time.sleep(0.2)
  print (count)
  if count == 0:
+     print("fire in the hole")
      break

@@ -1,9 +1,5 @@
 import time
-
-import vlc
-  
-
-import pafy 
+import webbrowser
 
 def countdown(tijd):
     
@@ -13,18 +9,8 @@ def countdown(tijd):
         print(timer, end="\r")
         time.sleep(1)
         tijd -= 1
-  
-    video = pafy.new(url)
-  
-    best = video.getbest()
-  
-    media = vlc.MediaPlayer(best.url)
-  
-    media.play()
-  
-  
-url = "https://www.youtube.com/watch?v=kpfisl0VFm4"
 
+    webbrowser.open("https://www.youtube.com/watch?v=kpfisl0VFm4", new=1)
 tijd = input("Enter the time in seconds: ")
   
 
